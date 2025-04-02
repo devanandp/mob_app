@@ -24,7 +24,7 @@ class AldiView extends StatelessWidget {
                         style: Theme.of(context).textTheme.headlineMedium),
                     UIHelper.verticalSpaceSmall(),
                     Text(
-                      'Anything you need, delivered.\nPick-up, Drop or Buy anything,\nfrom anywhere in your city',
+                      'Anything you need!\nBuy and pick-up anything,\nfrom anywhere in your city',
                       style: Theme.of(context)
                           .textTheme
                           .bodyLarge!
@@ -37,7 +37,7 @@ class AldiView extends StatelessWidget {
               LimitedBox(
                 maxWidth: 100.0,
                 child: Image.asset(
-                  'assets/images/delivery-man.png',
+                  'assets/images/aldi.png',
                   fit: BoxFit.cover,
                 ),
               ),
@@ -52,14 +52,14 @@ class AldiView extends StatelessWidget {
             children: <Widget>[
               _GenieCardView(
                 title: 'Buy\nAnything',
-                desc: 'Stationery\nMedicine\nGrocery\n& more',
-                image: 'assets/images/delivery-boy.png',
+                desc: 'Stationery\nFood\nGrocery\n& more',
+                image: 'assets/images/pizza-delivery-boy.png',
                 onTap: () {},
               ),
               _GenieCardView(
-                title: 'Pickup &\nDrop',
+                title: 'Go &\nCollect',
                 desc: 'Lunchbox\nCharger\nDocuments\nClothes',
-                image: 'assets/images/pizza-delivery-boy.png',
+                image: 'assets/images/delivery-boy.png',
                 onTap: () {},
               )
             ],

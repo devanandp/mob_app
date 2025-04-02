@@ -41,12 +41,16 @@ class HomeBottomNavigationScreenState
               selectedIndex = index;
             });
           },
-          items: const [
+          items: [
             BottomNavigationBarItem(
-              icon: Icon(Icons.home),
+              icon: Image.asset(
+                'assets/images/mob_logo.jpg',
+                height: 30,
+                width: 30,
+              ),
               label: 'MOB',
             ),
-            BottomNavigationBarItem(
+            const BottomNavigationBarItem(
               icon: Icon(Icons.person_outline),
               label: 'ACCOUNT',
             ),

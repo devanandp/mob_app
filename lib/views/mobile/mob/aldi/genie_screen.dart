@@ -40,7 +40,7 @@ class GenieScreen extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: <Widget>[
                               Text(
-                                'Aldie Pick',
+                                'Aldi Pick',
                                 style: Theme.of(context)
                                     .textTheme
                                     .headlineMedium!
@@ -48,7 +48,7 @@ class GenieScreen extends StatelessWidget {
                               ),
                               UIHelper.horizontalSpaceSmall(),
                               Image.asset(
-                                'assets/images/delivery-boy.png',
+                                'assets/images/aldi.png',
                                 height: 50.0,
                                 width: 50.0,
                               )
@@ -56,7 +56,7 @@ class GenieScreen extends StatelessWidget {
                           ),
                           UIHelper.verticalSpaceExtraSmall(),
                           Text(
-                            'Anything you need, delivered',
+                            'Anything you need, order, collect and enjoy!',
                             style:
                                 Theme.of(context).textTheme.bodyLarge!.copyWith(
                                       color: Colors.grey[200],
@@ -76,7 +76,7 @@ class GenieScreen extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
                             const _HeaderView(
-                              title: 'Order and Pick-up from nearby Aldi',
+                              title: 'Order and pick-up from nearby Aldi',
                               buttonTitle: 'Search for Products',
                             ),
                             const CustomDividerView(dividerHeight: 3.0),
@@ -145,7 +145,7 @@ class GenieScreen extends StatelessWidget {
                           borderRadius: BorderRadius.circular(10.0),
                         ),
                         child: const _HeaderView(
-                          title: 'Buy Anything from any store',
+                          title: 'Buy Anything from any Aldi store',
                           buttonTitle: 'FIND A STORE',
                         ),
                       ),
