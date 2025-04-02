@@ -80,7 +80,7 @@ class PopularChefsView extends StatelessWidget {
           ),
           UIHelper.verticalSpaceExtraSmall(),
           Text(
-            'Most ordered from around your locality',
+            'Most loved chefs by our customers',
             style: Theme.of(context)
                 .textTheme
                 .bodyLarge!
