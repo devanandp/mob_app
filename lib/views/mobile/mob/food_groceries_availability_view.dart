@@ -83,7 +83,7 @@ class FoodAvailabilityView extends StatelessWidget {
                         Container(
                           height: 45.0,
                           padding: const EdgeInsets.symmetric(horizontal: 10.0),
-                          color: darkOrange,
+                          color: mobOrange,
                           child: Row(
                             children: <Widget>[
                               Text(

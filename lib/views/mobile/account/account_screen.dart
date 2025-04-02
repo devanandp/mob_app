@@ -4,16 +4,8 @@ import 'package:mob_app/utils/ui_helper.dart';
 import 'package:mob_app/widgets/custom_divider_view.dart';
 
 class AccountScreen extends StatelessWidget {
-  final List<String> titles = [
-    'My Account',
-    'Help',
-    'Log Out'
-  ];
-  final List<String> body = [
-    'Favourties',
-    'FAQ & Links',
-    ''
-  ];
+  final List<String> titles = ['My Account', 'Help', 'Log Out'];
+  final List<String> body = ['Favourties', 'FAQ & Links', ''];
 
   AccountScreen({super.key});
 
@@ -59,10 +51,10 @@ class _AppBar extends StatelessWidget {
             child: Text(
               'D',
               style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                fontSize: 40.0,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-              ),
+                    fontSize: 40.0,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
             ),
           ),
           UIHelper.verticalSpaceLarge(),
@@ -82,7 +74,7 @@ class _AppBar extends StatelessWidget {
                   style: Theme.of(context)
                       .textTheme
                       .titleLarge!
-                      .copyWith(fontSize: 17.0, color: darkOrange),
+                      .copyWith(fontSize: 17.0, color: mobOrange),
                 ),
                 onTap: () {},
               )

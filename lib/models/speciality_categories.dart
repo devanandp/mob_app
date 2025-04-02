@@ -36,11 +36,19 @@ class SpecialityCategories {
 
   static List<CuisinesList> getTrendingRecipes() {
     return const [
-      CuisinesList(image: 'assets/images/food3.jpg', name: 'Air Fryer Crispy Sesame Chicken'),
-      CuisinesList(image: 'assets/images/food5.jpg', name: 'Jalapeño Bottle Caps'),
-      CuisinesList(image: 'assets/images/food1.jpg', name: 'Air Fryer Duck Pancakes'),
-      CuisinesList(image: 'assets/images/food8.jpg', name: 'Air Fryer Prawn & Sesame Toast'),
-      CuisinesList(image: 'assets/images/food9.jpg', name: 'Air Fryer Crispy Honey Chilli Halloumi'),
+      CuisinesList(
+          image: 'assets/images/food3.jpg',
+          name: 'Air Fryer Crispy Sesame Chicken'),
+      CuisinesList(
+          image: 'assets/images/food5.jpg', name: 'Jalapeño Bottle Caps'),
+      CuisinesList(
+          image: 'assets/images/food1.jpg', name: 'Air Fryer Duck Pancakes'),
+      CuisinesList(
+          image: 'assets/images/food8.jpg',
+          name: 'Air Fryer Prawn & Sesame Toast'),
+      CuisinesList(
+          image: 'assets/images/food9.jpg',
+          name: 'Air Fryer Crispy Honey Chilli Halloumi'),
     ];
   }
 }

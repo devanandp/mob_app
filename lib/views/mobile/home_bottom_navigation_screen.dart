@@ -31,7 +31,7 @@ class HomeBottomNavigationScreenState
         height: 90.0,
         child: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
-          selectedItemColor: darkOrange,
+          selectedItemColor: mobOrange,
           unselectedItemColor: Colors.grey,
           currentIndex: selectedIndex,
           selectedLabelStyle: labelTextStyle,

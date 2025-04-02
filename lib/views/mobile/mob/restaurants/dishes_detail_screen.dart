@@ -113,11 +113,11 @@ class _RestaurantDetailHomeView extends StatelessWidget {
             unselectedLabelColor: Colors.grey,
             labelColor: Colors.black,
             controller: tabController,
-            indicatorColor: darkOrange,
+            indicatorColor: mobOrange,
             labelStyle: Theme.of(context)
                 .textTheme
                 .titleSmall!
-                .copyWith(fontSize: 16.0, color: darkOrange),
+                .copyWith(fontSize: 16.0, color: mobOrange),
             unselectedLabelStyle:
                 Theme.of(context).textTheme.titleSmall!.copyWith(
                       fontSize: 16.0,

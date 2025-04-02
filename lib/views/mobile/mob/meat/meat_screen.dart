@@ -168,7 +168,7 @@ class _CardView extends StatelessWidget {
                     style: Theme.of(context)
                         .textTheme
                         .titleLarge!
-                        .copyWith(color: darkOrange),
+                        .copyWith(color: mobOrange),
                   ),
                   onPressed: () {},
                 )

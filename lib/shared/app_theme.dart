@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mob_app/utils/app_colors.dart';
 
 ThemeData appPrimaryTheme() => ThemeData(
       brightness: Brightness.light,
@@ -9,7 +8,7 @@ ThemeData appPrimaryTheme() => ThemeData(
       scaffoldBackgroundColor: Colors.white,
       cardColor: Colors.white,
       snackBarTheme: const SnackBarThemeData(
-        backgroundColor: appColor,
+        backgroundColor: Colors.orange,
         contentTextStyle: TextStyle(color: Colors.white),
         actionTextColor: Colors.white,
       ),

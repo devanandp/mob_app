@@ -188,7 +188,7 @@ class _HeaderView extends StatelessWidget {
           height: 50.0,
           width: double.infinity,
           child: ElevatedButton(
-            style: ElevatedButton.styleFrom(backgroundColor: darkOrange),
+            style: ElevatedButton.styleFrom(backgroundColor: mobOrange),
             child: Text(
               buttonTitle,
               style: Theme.of(context)
