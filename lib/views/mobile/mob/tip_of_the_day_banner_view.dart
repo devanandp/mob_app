@@ -24,7 +24,7 @@ class TipOfTheDayBannerView extends StatelessWidget {
                 child: Text(
                   "Tip of the day",
                   style: Theme.of(context).textTheme.titleSmall!.copyWith(
-                        color: mobGreen,
+                        color: mobOrange,
                         fontSize: 20.0,
                         fontWeight: FontWeight.w700,
                       ),
