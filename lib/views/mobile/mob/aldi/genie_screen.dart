@@ -9,7 +9,7 @@ class GenieScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final services = Genie.getGenieServices();
+    final services = Aldi.getAldiProductCategories();
 
     return Scaffold(
       body: SafeArea(
@@ -76,13 +76,13 @@ class GenieScreen extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
                             const _HeaderView(
-                              title: 'Pickup or Drop any items',
-                              buttonTitle: 'ADD PICKUP DROP DETAILS',
+                              title: 'Order and Pick-up from nearby Aldi',
+                              buttonTitle: 'Search for Products',
                             ),
                             const CustomDividerView(dividerHeight: 3.0),
                             UIHelper.verticalSpaceMedium(),
                             Text(
-                              'Some things we can pick or drop for you',
+                              'Some thingsyou can order from here',
                               style: Theme.of(context)
                                   .textTheme
                                   .bodyLarge!

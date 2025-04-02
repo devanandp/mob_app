@@ -24,7 +24,7 @@ class TipOfTheDayBannerView extends StatelessWidget {
                 child: Text(
                   "Tip of the day",
                   style: Theme.of(context).textTheme.titleSmall!.copyWith(
-                        color: swiggyOrange,
+                        color: mobGreen,
                         fontSize: 20.0,
                         fontWeight: FontWeight.w700,
                       ),
@@ -33,7 +33,7 @@ class TipOfTheDayBannerView extends StatelessWidget {
               UIHelper.horizontalSpaceExtraSmall(),
               Icon(
                 Icons.arrow_downward,
-                color: swiggyOrange,
+                color: mobGreen,
               ),
             ],
           ),
@@ -50,7 +50,7 @@ class TipOfTheDayBannerView extends StatelessWidget {
                 width: cardWidth,
                 decoration: BoxDecoration(
                   color: Colors.orange[100],
-                  border: Border.all(color: swiggyOrange!, width: 2.0),
+                  border: Border.all(color: mobGreen!, width: 2.0),
                   borderRadius: BorderRadius.circular(10.0),
                 ),
                 child: Row(

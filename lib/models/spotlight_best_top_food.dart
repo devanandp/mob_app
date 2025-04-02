@@ -94,7 +94,7 @@ class SpotlightBestTopFood {
       ),
       SpotlightBestTopFood(
         image: 'assets/images/food4.jpg',
-        name: 'Butter Naan with Mutton Rogan Jhosh',
+        name: 'Mutton Rogan Jhosh',
         desc: 'North Indian',
         premiumLevel: 'PREMIUM',
       ),

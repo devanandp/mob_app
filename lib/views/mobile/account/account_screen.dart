@@ -7,10 +7,12 @@ class AccountScreen extends StatelessWidget {
   final List<String> titles = [
     'My Account',
     'Help',
+    'Log Out'
   ];
   final List<String> body = [
     'Favourties',
     'FAQ & Links',
+    ''
   ];
 
   AccountScreen({super.key});
@@ -34,19 +36,6 @@ class AccountScreen extends StatelessWidget {
                   isLastItem: (titles.length - 1) == index,
                 ),
               ),
-              Container(
-                alignment: Alignment.centerLeft,
-                padding: const EdgeInsets.only(left: 15.0),
-                height: 50.0,
-                color: Colors.grey[200],
-                child: Text(
-                  'PAST ORDERS',
-                  style: Theme.of(context)
-                      .textTheme
-                      .titleSmall!
-                      .copyWith(color: Colors.grey[700], fontSize: 12.0),
-                ),
-              ),
             ],
           ),
         ),
@@ -64,6 +53,19 @@ class _AppBar extends StatelessWidget {
       padding: const EdgeInsets.all(15.0),
       child: Column(
         children: <Widget>[
+          CircleAvatar(
+            radius: 60.0,
+            backgroundColor: Colors.black,
+            child: Text(
+              'D',
+              style: Theme.of(context).textTheme.titleLarge!.copyWith(
+                fontSize: 40.0,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+            ),
+          ),
+          UIHelper.verticalSpaceLarge(),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[

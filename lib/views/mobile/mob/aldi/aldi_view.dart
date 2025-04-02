@@ -126,7 +126,7 @@ class _GenieCardView extends StatelessWidget {
                       ClipOval(
                         child: Container(
                           alignment: Alignment.center,
-                          color: swiggyOrange,
+                          color: mobGreen,
                           height: 25.0,
                           width: 25.0,
                           child: const Icon(

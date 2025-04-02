@@ -83,7 +83,7 @@ class MobHomeScreen extends StatelessWidget {
               child: Container(
                 padding: const EdgeInsets.all(5.0),
                 child: Text(
-                  'Go Premium',
+                  'Join Mob',
                   style: Theme.of(context)
                       .textTheme
                       .titleSmall!

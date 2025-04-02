@@ -23,7 +23,7 @@ class FoodAvailabilityView extends StatelessWidget {
             Align(
               alignment: Alignment.centerLeft,
               child: Text(
-                'Good evening Dev',
+                'Good evening Dev!',
                 style: Theme.of(context).textTheme.headlineMedium,
               ),
             ),
@@ -46,7 +46,7 @@ class FoodAvailabilityView extends StatelessWidget {
                         },
                   child: Container(
                     height: 190.0,
-                    color: swiggyOrange,
+                    color: mobGreen,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: <Widget>[

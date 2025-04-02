@@ -133,7 +133,7 @@ class _CardView extends StatelessWidget {
       padding: const EdgeInsets.all(10.0),
       decoration: BoxDecoration(
         color: Colors.orange[100],
-        border: Border.all(color: swiggyOrange!, width: 2.0),
+        border: Border.all(color: mobGreen!, width: 2.0),
         borderRadius: BorderRadius.circular(10.0),
       ),
       child: Row(

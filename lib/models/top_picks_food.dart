@@ -12,45 +12,37 @@ class TopPicksFood {
   static List<TopPicksFood> getTopPicksfoods() {
     return const [
       TopPicksFood(
-          image: 'assets/images/food5.jpg',
-          name: 'Murugan Idli Shop',
+          image: 'assets/images/food1.jpg',
+          name: 'Aubergine Parmigiana',
+          minutes: '42 mins'),
+      TopPicksFood(
+          image: 'assets/images/food2.jpg',
+          name: 'Red Pesto Gnocchi',
+          minutes: '42 mins'),
+      TopPicksFood(
+          image: 'assets/images/food3.jpg',
+          name: 'Beetroot & Feta Pesto',
           minutes: '42 mins'),
       TopPicksFood(
           image: 'assets/images/food4.jpg',
-          name: 'Thalappakati Biryani Hotel',
-          minutes: '32 mins'),
+          name: 'Mutton Rogan Jhosh',
+          minutes: '42 mins'),
       TopPicksFood(
-          image: 'assets/images/food1.jpg',
-          name: 'Sangeetha',
-          minutes: '26 mins'),
-      TopPicksFood(
-          image: 'assets/images/food2.jpg',
-          name: 'Hotel Chennai',
-          minutes: '38 mins'),
-      TopPicksFood(
-          image: 'assets/images/food3.jpg',
-          name: 'Shri Balaajee',
-          minutes: '53 mins'),
-      TopPicksFood(
-          image: 'assets/images/food4.jpg',
-          name: 'Namma Veedu Vasantha',
-          minutes: '22 mins'),
+          image: 'assets/images/food5.jpg',
+          name: 'Parota with Salna',
+          minutes: '42 mins'),
       TopPicksFood(
           image: 'assets/images/food6.jpg',
-          name: 'SK Parota Stall',
-          minutes: '13 mins'),
+          name: 'Mutton Biryani',
+          minutes: '42 mins'),
       TopPicksFood(
           image: 'assets/images/food7.jpg',
-          name: 'Aasife Biryani',
-          minutes: '31 mins'),
+          name: 'Ceaser Salad',
+          minutes: '42 mins'),
       TopPicksFood(
           image: 'assets/images/food8.jpg',
-          name: 'Jesus Fast Food',
-          minutes: '44 mins'),
-      TopPicksFood(
-          image: 'assets/images/food9.jpg',
-          name: 'Ananda Bhavan',
-          minutes: '55 mins'),
+          name: 'Spicy Pesto Paccheri',
+          minutes: '42 mins'),
     ];
   }
 }

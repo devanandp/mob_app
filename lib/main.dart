@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mob_app/views/mobile/mob_splash_screen.dart';
-import 'package:mob_app/views/tab_desktop/tab_screen.dart';
 
 import 'shared/app_theme.dart';
-import 'views/tab_desktop/desktop_screen.dart';
 import 'widgets/responsive.dart';
 
 void main() {
@@ -21,8 +19,6 @@ class MyApp extends StatelessWidget {
       theme: appPrimaryTheme(),
       home: const Responsive(
         mobile: MobSplashScreen(),
-        tablet: TabScreen(),
-        desktop: DesktopScreen(),
       ),
     );
   }

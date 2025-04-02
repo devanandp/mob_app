@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mob_app/models/all_restaurant.dart';
+import 'package:mob_app/models/speciality_categories.dart';
 import 'package:mob_app/utils/ui_helper.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -64,7 +64,7 @@ class AllRestaurantsScreen extends StatelessWidget {
               child: Container(
                 padding: const EdgeInsets.all(5.0),
                 child: Text(
-                  'Go Premium',
+                  'Join Mob',
                   style: Theme.of(context)
                       .textTheme
                       .titleSmall!
@@ -86,7 +86,7 @@ class AllRestaurantsScreen extends StatelessWidget {
 }
 
 class _FoodHorizontalListView extends StatelessWidget {
-  final restaurants = SpecialityCategories.getPopularBrands();
+  final restaurants = SpecialityCategories.getTrendingRecipes();
 
   @override
   Widget build(BuildContext context) {

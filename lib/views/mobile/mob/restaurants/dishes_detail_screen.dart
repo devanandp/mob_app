@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mob_app/models/restaurant_detail.dart';
+import 'package:mob_app/models/dishes_detail.dart';
 import 'package:mob_app/utils/app_colors.dart';
 import 'package:mob_app/utils/ui_helper.dart';
 import 'package:mob_app/widgets/custom_divider_view.dart';
@@ -213,7 +213,7 @@ class _RestaurantDetailHomeView extends StatelessWidget {
                 style: Theme.of(context).textTheme.titleSmall!.copyWith(
                     fontSize: 15.0,
                     fontWeight: FontWeight.w900,
-                    color: swiggyOrange),
+                    color: mobGreen),
               ),
               UIHelper.verticalSpaceExtraSmall(),
               Text(subtitle,
@@ -228,7 +228,7 @@ class _RestaurantDetailHomeView extends StatelessWidget {
 }
 
 class _RecommendedFoodView extends StatelessWidget {
-  final foods = RestaurantDetail.getBreakfast();
+  final foods = DishesDetail.getRecommendedDishes();
 
   @override
   Widget build(BuildContext context) {

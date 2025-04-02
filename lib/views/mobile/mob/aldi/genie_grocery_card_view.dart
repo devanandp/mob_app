@@ -31,7 +31,7 @@ class GenieGroceryCardView extends StatelessWidget {
                 padding: const EdgeInsets.only(top: 8.0),
                 height: 120.0,
                 decoration: BoxDecoration(
-                  color: swiggyOrange,
+                  color: mobGreen,
                   boxShadow: const <BoxShadow>[
                     BoxShadow(
                       color: Colors.grey,
