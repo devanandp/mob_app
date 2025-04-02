@@ -24,7 +24,7 @@ class SpecialityCategories {
         name: 'Easy\nCook',
       ),
       SpecialityCategories(
-        image: 'assets/icons/only-on-swiggy.png',
+        image: 'assets/icons/only-on-mob.png',
         name: 'Only on\nMob',
       ),
       SpecialityCategories(

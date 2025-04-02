@@ -22,7 +22,7 @@ class PopularCategory {
         name: 'Easy\nCook',
       ),
       PopularCategory(
-        image: 'assets/icons/only-on-swiggy.png',
+        image: 'assets/icons/only-on-mob.png',
         name: 'Only on\nMob',
       ),
       PopularCategory(

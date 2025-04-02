@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'SwiggyUI',
+      title: 'MobAppUI',
       debugShowCheckedModeBanner: false,
       theme: appPrimaryTheme(),
       home: const Responsive(

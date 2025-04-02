@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mob_app/models/popular_brands.dart';
+import 'package:mob_app/models/popular_chefs.dart';
 import 'package:mob_app/utils/ui_helper.dart';
 
 class PopularChefsView extends StatelessWidget {
